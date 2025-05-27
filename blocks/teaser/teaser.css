@@ -1,0 +1,26 @@
+.teaser {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.teaser-image {
+  width: 150px;
+  height: auto;
+  border-radius: 4px;
+}
+.teaser-content {
+  flex: 1;
+}
+.teaser-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+.teaser-description {
+  margin: 0.5em 0;
+}
+.teaser-link {
+  color: #0056b3;
+  text-decoration: underline;
+}
